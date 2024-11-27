@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="input-group">
+          <label for="">Email</label>
+          <input
+            type="text"
+            id="email-input"
+            placeholder="     Example@gamil.com"
+            style="
+              margin-top: 8px;
+              border-radius: 5px;
+              border: solid black 1px;
+              height: 22px;
+              font-size: small; padding:2px;
+            "
+            onkeyup="emailcheck()"
+          />
+          <span class="email-error" style="margin-top: 6px; font-size: small;color: red;"
+            ></span>
+        </div>
+        <div class="input-group">
+          <label for="">Password</label>
+          <input type="text" id="Password-input" placeholder="     Your Password"
+          style="margin-top: 8px; border-radius: 5px; border: solid black 1px;
+          height: 22px;font-size: small; padding:2px" onkeyup="PasswordCheck()">
+          <span class="Password-error" style="margin-top: 6px; font-size: small;color: red;"
+            ></span
+          >
+        </div>
+        <span
+          class="submit-error"
+          style="margin: 1rem 1rem 0.5rem; display: block; color: #198f51"
+          ></span
+        >
+        <button
+          style="
+            margin: 0.5rem 1rem 1rem;
+            width: 90px;
+            height: 25px;
+            border-radius: 6px;
+            background-color: #B1C29E;
+            
+          "
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

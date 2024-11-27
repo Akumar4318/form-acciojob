@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #DEAA79;
+}
+
+.container {
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  /* height: 40%; */
+  width: 300px;
+  background-color: #FFE6A9;
+  border:none;
+  border-radius: 10px;
+  
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+  margin: 1rem;
+}
